@@ -1,0 +1,93 @@
+//////////////////////////////////////
+//LOGO
+
+.logo{
+    width:3.25rem;
+    margin-left:3rem;
+}
+
+
+
+//////////////////////////////////////
+///SEARCH
+.search{
+    flex:0 0 40%;
+
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+    &__input{
+        font-family: inherit;
+        font-size: inherit;
+        background-color: var(--light-grey2);
+        border: none;
+        padding: .7rem 2rem;
+        border-radius: 100px;
+        width:90%;
+        transition: all .2s;
+        margin-right: -3.25rem;
+
+        &:focus{
+            outline: none;
+            width:100%;
+            background-color: var(--light-grey3);
+        }
+
+        &::-webkit-input-placeholder{
+            font-weight: 100;
+            color: var(--light-grey4);
+        }
+     
+    }
+    &__input:focus + &__button{
+        background-color: var(--light-grey3);
+    }
+
+    &__button{
+        border:none;
+        background-color: var(--light-grey2);
+        
+
+        &:focus{
+            outline:none
+        }
+        &:active{
+            transform:translateY(2px);
+        }
+    }
+
+    &__icon{
+        height:2.25rem;
+        width:2.25rem;
+        fill:var(--medium-grey);
+    }
+}
+
+/////////////////////////////
+//USER NAVIGATION
+.user-nav{
+    background-color: rgb(0, 255, 13);
+
+    &__icon-box{
+
+    }
+
+    &__icon{
+        height:2.25rem;
+        width:2.25rem;
+    }
+    &__notification{
+
+    }
+    &__user{
+
+    }
+    &__user-photo{
+        height:3.25rem;
+        border-radius: 50%;
+    }
+    &__user-name{
+
+    }
+}
