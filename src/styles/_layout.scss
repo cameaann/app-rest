@@ -20,10 +20,16 @@
     background-color:var(--dark-grey);
     flex: 0 0 20%;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 .hotel_view{
     background-color: #fff;
-    background-color: lightblue;
     flex: 1;
+
+///Test
+    height:80rem;
+    background-color: lightblue;
 }
