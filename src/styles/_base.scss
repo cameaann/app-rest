@@ -8,6 +8,7 @@
 
 :root{
     --light-grey:#e5dfdf;
+    --light-grey1:#f5ebeb;
     --light-grey2:#e7d8d8;
     --light-grey3:#e6cfcf;
     --light-grey4:#b4a4a4;
@@ -20,6 +21,8 @@
     --primary-dark-blue:#1d4d4f;
 
     --shadow-dark:0 2rem 6rem rgba(0,0,0,.3);
+    --shadow-light:0 2rem 5rem rgba(0,0,0,.06);
+    --line:1px solid var(--light-grey2);
 }
 
 *{
