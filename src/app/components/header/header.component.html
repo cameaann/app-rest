@@ -2,7 +2,7 @@
     <img src="assets/img/logo3.png" alt="rest logo" class="logo">
 
     <form action="#" class="search">
-        <input type="text" class="search__input" placeholder="Search hotels">
+        <input type="text" class="search__input" placeholder="Search hotels" autocomplete="on">
         <button class="search__button">
             <svg class="search__icon">
                 <use xlink:href="assets/img/sprite.svg#icon-magnifying-glass"></use>    
@@ -10,21 +10,29 @@
         </button>
     </form>
     <nav class="user-nav">
-        <div class="user-nav__icon-box">
+        <div class="user-nav__icon-box bookmark">
             <svg class="user-nav__icon">
                 <use xlink:href="assets/img/sprite.svg#icon-bookmark"></use>
             </svg>
             <span class="user-nav__notification">7</span>
+            <div class="hint">bookmarks</div>
         </div>
-        <div class="user-nav__icon-box">
+        <div class="user-nav__icon-box chat">
                 <svg class="user-nav__icon">
                     <use xlink:href="assets/img/sprite.svg#icon-chat"></use>
                 </svg>
                 <span class="user-nav__notification">14</span>
+                <div class="hint">messages</div>
         </div>
         <div class="user-nav__user">
             <img src="assets/img/user.png" alt="User photo" class="user-nav__user-photo">
             <span class="user-nav__user-name">Anna</span>
+
+            <ul class="user__menu">
+                <li class="user__menu-item"><a href="/#">Anna</a></li>
+                <li class="user__menu-item"><a href="/#">Manage your account</a></li>
+                <li class="user__menu-item"><a href="/#">Sign out</a></li>
+            </ul>
         </div>
     </nav>
 </header>

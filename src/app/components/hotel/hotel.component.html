@@ -1,13 +1,31 @@
 <div class="gallery">
+        <!-- <div class="gallery__control gallery__control-next">
+                <a class="gallery__button" id="item-2">
+                        <svg class="gallery__icon">
+                                <use xlink:href="assets/img/sprite.svg#icon-chevron-thin-right"></use>
+                        </svg>
+                </a>
+        </div> -->
+
     <figure class="gallery__item">
         <img src="assets/img/hotel1-4.jpg" alt="photo1 " class="gallery__photo">
     </figure>
+    
     <figure class="gallery__item">
-            <img src="assets/img/hotel1-2.jpg" alt="photo1 " class="gallery__photo">
-        </figure>
-    <figure class="gallery__item">
-        <img src="assets/img/hotel1-3.jpg" alt="photo1 " class="gallery__photo">
+        <img src="assets/img/hotel1-3.jpg" alt="photo3 " class="gallery__photo">
     </figure>
+    <figure class="gallery__item">
+            <img src="assets/img/hotel1-2.jpg" alt="photo2 " class="gallery__photo">
+    </figure>
+
+    <!-- <div class="gallery__control gallery__control-prev">
+            <a class="gallery__button" id="item-1">
+                    <svg class="gallery__icon">
+                            <use xlink:href="assets/img/sprite.svg#icon-chevron-thin-left"></use>
+                    </svg>
+                </a>
+    </div> -->
+    
 </div>
 
 <div class="overview">
@@ -48,14 +66,15 @@
             <p class="paragraph">Animi nobis eveniet temporibus impedit voluptas perspiciatis eaque maiores consequatur? Eaque 
                 inventore cupiditate libero.</p>
             <ul class="list">
-                        <li class="list__item">Close to the beach</li>
-                        <li class="list__item">Close to the beach</li>
-                        <li class="list__item">Close to the beach</li>
-                        <li class="list__item">Close to the beach</li>
-                        <li class="list__item">Close to the beach</li>
-                        <li class="list__item">Close to the beach</li>
-                        <li class="list__item">Close to the beach</li>
-                        <li class="list__item">Close to the beach</li>
+                        <li class="list__item">Free WiFi</li>
+                        <li class="list__item">Close to the beach</li>                        
+                        <li class="list__item">Outdoor pool</li>                        
+                        <li class="list__item">Free cribs/infant beds</li>
+                        <li class="list__item">Laundry facilities</li>
+                        <li class="list__item">Refrigerator</li>
+                        <li class="list__item">Free self parking</li>
+                        <li class="list__item">Airport shuttle on request</li>
+                        
             </ul>
             <div class="recommend">
                 <p class="recommend__count">Diego and 4 other friends recommend this hotel.</p>
@@ -68,6 +87,37 @@
         </div>
         
         <div class="user-reviews">
-                User-reviews
-        </div>
+                <figure class="review">
+                    <blockquote class="review__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eligendi odit et nemo modi eveniet molestias provident </blockquote>
+                    <figcaption class="review__user">
+                        <img src="assets/img/user-1.jpg" alt="" class="review__user-photo">
+                        <div class="review__user-box">
+                           <p class="review__user-name">Mary Smith</p>
+                           <p class="review__user-date">Feb 14, 2019</p>
+                        </div>
+                        <div class="review__rating">7.9</div>
+                    </figcaption>
+                </figure>
+                <figure class="review">
+                    <blockquote class="review__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur eligendi odit et nemo modi eveniet molestias provident </blockquote>
+                    <figcaption class="review__user">
+                        <img src="assets/img/user-2.jpg" alt="" class="review__user-photo">
+                        <div class="review__user-box">
+                            <p class="review__user-name">Tery Li</p>
+                            <p class="review__user-date">May 10, 2019</p>
+                        </div>
+                        <div class="review__rating">8.4</div>
+                     </figcaption>
+                </figure>
+                <button class="btn-inline">Show all <span>&rarr;</span></button>
+            </div>
+</div>
+<div class="cta">
+        <h2 class="cta__book-now">
+            Good news! We have 5 free rooms for your selected dates!
+        </h2>
+        <button class="btn">
+            <span class="btn__visible">Book now!</span>
+            <span class="btn__invisible">Only 5 rooms left</span>
+        </button>
 </div>
