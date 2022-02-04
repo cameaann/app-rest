@@ -1,4 +1,5 @@
 @import "variables";
+@import "mixin";
 
 //Colors
 //______________________
@@ -9,7 +10,7 @@
     --light-grey2:#e7d8d8;
     --light-grey3:#e6cfcf;
     --light-grey4:#b4a4a4;
-    --medium-grey:#837f7f;    
+    --medium-grey:#837f7f;
     --dark-grey:#494646;
     --dark-grey2:#494343;
 
@@ -42,8 +43,22 @@ html{
         font-size: 50%; //1rem=8px, 8px/16px = 50%
     }
 
-    
 
+    @include response(tab-land){ //width<1200px
+        font-size: 56.25%; //1rem=9px 9px/16px=56.25%
+    }
+
+    @include response(tab-port){ //width<900px
+        font-size: 50%; //1rem=8px 8px/16px=50%
+    }
+
+    @include response(phone){
+        font-size: 44%; //1rem=7px 7px/16px=44%
+    }
+
+    @include response(big-desktop){//width> 1800px ?
+        font-size: 75%; //1rem=12px 12/16=
+    }
 
 }
 

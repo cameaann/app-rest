@@ -8,6 +8,7 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { MainComponent } from './components/main/main.component';
 import { ContentComponent } from './components/content/content.component';
 import { HotelComponent } from './components/hotel/hotel.component';
+import { DemoInfoComponent } from './components/demo-info/demo-info.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,9 @@ import { HotelComponent } from './components/hotel/hotel.component';
     SidebarComponent,
     MainComponent,
     ContentComponent,
-    HotelComponent
+    HotelComponent,
+    DemoInfoComponent,
+
   ],
   imports: [
     BrowserModule,
